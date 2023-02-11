@@ -1,0 +1,219 @@
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: start;
+    font-size:20px;
+    font-weight: 800;
+    display: flex;
+}
+section{
+    padding: 40px;
+    margin-top: 0px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    background: local  ;
+    background-size: 100%;
+    
+}
+ul.slider {
+    position:relative; 
+}
+ul.slider li {
+    opacity: 0; 
+    transition: opacity .5s;
+    position: absolute; 
+    left: 0px;
+    top: 0px;
+    margin:50px;
+    padding:50px;
+    border:2px solid red;
+    background:#fff;
+}
+ul.slider li:first-child {
+    opacity: 1; 
+}
+ul.slider li:target {
+    opacity: 1; 
+}
+.nav2 {
+    position:relative;
+    top:200px;
+    left:50px;
+}
+
+
+ul, li {
+    box-sizing: border-box;
+}
+
+ul.slider {
+    padding: 30px;
+}
+
+ul.slider li {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: gray;
+    opacity: 0; 
+    transition: opacity .5s;
+    padding-top: 30vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: calc( 1.5rem + 1vw );
+    text-align: center;
+}
+
+#slide1 {
+    background-color: #00324b;
+    color: #fff;
+}
+
+#slide2 {
+    background-color: #65bce8;
+    color: #00324b;
+}
+
+#slide3 {
+    background-color: #f90;
+    color: #00324b;
+}
+
+#slide4 {
+    background-color: #00324b;
+    color: #65bce8;
+}
+
+#slide5 {
+    background-color: #65bce8;
+    color: #00324b;
+}
+
+p{
+    color: aliceblue;
+    font-size:20px;
+    padding: 2%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    display: flex;
+    margin-top: 0
+    ;
+}
+.titulogr{
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: start;
+}
+.download-button a {
+    margin-right: 20px;
+    line-height: 25px;
+    background: none;
+    color: #f9580e;
+    border: .2rem solid #f9580e
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+
+
+    
+    
+.download-button:hover{
+    transform:scale(1.1);
+}
+.download-button{
+    transition-property: all;
+    transition-duration: 1s;
+}
+.d-block:hover{
+    transform:scale(1.1);
+}
+.d-block{
+    transition-property: all;
+    transition-duration: 1s;
+    transform-style: preserve-3d;
+    border-radius: 20mm;
+    padding: 10mm;
+}
+.contact {
+    background: scroll;
+}
+
+.contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 0;
+    text-align: center;
+}
+
+.contact .row .form-container {
+    width: 50%;
+    padding-right: 6rem;
+}
+
+.contact .row .form-container input, textarea {
+    height: 3rem;
+    width: 104%;
+    background: #fff;
+    border-radius: 5rem;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    color: #f9580e;
+    font-size: 1.7rem;
+    transition: .2s linear;
+  }
+
+.contact .row .form-container input:focus, textarea:focus {
+    border: .4rem solid #f9580e;
+}
+
+.contact .row .form-container textarea {
+    height: 6rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    resize: none;
+}
+
+.contact .row .form-container input[type="submit"] {
+    height: 4rem;
+    width: 17rem;
+    background: #f9580e;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+}
+
+.contact .row .form-container input[type="submit"]:hover {
+    background: none;
+    color: #f9580e;
+    border: .2rem solid #f9580e;
+}
+.heading{
+    color: #f9580e;
+    text-align: center;
+    font-size: 30px;
+}
+.texto{ 
+    font-size: 20px;
+}

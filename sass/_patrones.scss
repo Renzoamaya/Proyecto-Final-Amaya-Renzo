@@ -1,0 +1,45 @@
+section  {
+    padding: 40px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background: local  ;
+    background-size: 100%;
+    justify-content: center;
+    text-align: justify;
+    
+    
+}
+h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+}
+
+.coc {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+@media only screen and (max-width: 600px) {
+    section {
+    flex-direction: column;
+
+    }
+    .img-patrones{
+        width: 95%;
+        height: 95%;
+        align-items: center;
+    }
+    h2 {
+    font-size: 20px;
+    
+    }
+    
+    }
+    
+    @media only screen and (max-width: 500px) {
+    section {
+    padding: 20px;
+    }
+    }
