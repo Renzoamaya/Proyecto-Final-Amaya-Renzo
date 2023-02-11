@@ -98,8 +98,7 @@ border: .2rem solid #f9580e
         text-align: center;
     }
     .d-block {
-        width: 180px;
-        height: 300px;
+        display: none;
     }
     
     header nav ul {
@@ -127,6 +126,9 @@ border: .2rem solid #f9580e
         }
         .texto {
         font-size: 18px;
+        }
+        .d-block {
+        display: none;
         }
         }
         
